@@ -27,5 +27,5 @@ def largestPrimeFactor(number: int) -> int:
 
 if __name__ == "__main__":
     start_time = time.time()
-    print(largestPrimeFactor(number=60085147514325910))
+    print(largestPrimeFactor(number=600851475143))
     print("--- %.10f seconds ---" % (time.time() - start_time))
